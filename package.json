@@ -1,0 +1,46 @@
+{
+  "name": "dark-angel-panel",
+  "version": "1.0.0",
+  "description": "Dark Angel - Advanced Hosting Server Management Panel Bot",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hosting",
+    "panel",
+    "bot",
+    "discord",
+    "server-management",
+    "dark-angel",
+    "deadnote"
+  ],
+  "author": "deadnote",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "dotenv": "^16.3.1",
+    "chalk": "^4.1.2",
+    "figlet": "^1.6.0",
+    "axios": "^1.6.2",
+    "moment": "^2.29.4",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.1.0",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "prettier": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
